@@ -44,5 +44,75 @@ public class Users implements Serializable {
 	public Users() {
 		super();
 	}
+
+
+	public String getUserId() {
+		return userId;
+	}
+
+
+	public void setUserId(String userId) {
+		this.userId = userId;
+	}
+
+
+	public String getPassword() {
+		return password;
+	}
+
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+
+	public Date getCreateTimestamp() {
+		return createTimestamp;
+	}
+
+
+	public void setCreateTimestamp(Date createTimestamp) {
+		this.createTimestamp = createTimestamp;
+	}
+
+
+	public Date getLastLoginTimestamp() {
+		return lastLoginTimestamp;
+	}
+
+
+	public void setLastLoginTimestamp(Date lastLoginTimestamp) {
+		this.lastLoginTimestamp = lastLoginTimestamp;
+	}
+
+
+	public int getInvalidLoginAttempt() {
+		return invalidLoginAttempt;
+	}
+
+
+	public void setInvalidLoginAttempt(int invalidLoginAttempt) {
+		this.invalidLoginAttempt = invalidLoginAttempt;
+	}
+
+
+	public char getStatus() {
+		return status;
+	}
+
+
+	public void setStatus(char status) {
+		this.status = status;
+	}
+
+
+	public String getRoles() {
+		return roles;
+	}
+
+
+	public void setRoles(String roles) {
+		this.roles = roles;
+	}
    
 }
