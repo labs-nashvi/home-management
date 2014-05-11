@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
 	<persistence-unit name="home-management-model">
-		<class>com.nashvi.labs.model.Users</class>
-		<class>com.nashvi.labs.model.Address</class>
-		<class>com.nashvi.labs.model.AddressId</class>
-		<class>com.nashvi.labs.domain.Users</class>
+		<class>com.nashvi.labs.domain.Address</class>
+		<class>com.nashvi.labs.domain.Ledger</class>
+		<class>com.nashvi.labs.domain.Transaction</class>
+		<class>com.nashvi.labs.domain.User</class>
+		
 		<properties>
 			<property name="hibernate.connection.username" value="nashvi"/>
 			<property name="hibernate.connection.password" value="pass"/>
